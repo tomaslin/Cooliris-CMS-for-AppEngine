@@ -70,8 +70,8 @@ log4j = {
 }
 
 google.appengine.security.requireAdmin = ["/book/delete", "/book/save", "/book/update", "/book/index"]
-google.appengine.email = "yourname@gmail.com"
-google.appengine.password = "yourpassword"
-google.appengine.application = "yourapp"
+google.appengine.email = "you@gmail.com"
+google.appengine.password = "password"
+google.appengine.application = "coolirisCMS"
 
      
