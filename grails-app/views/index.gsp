@@ -11,10 +11,10 @@
 		      value="http://apps.cooliris.com/embed/cooliris.swf" />
 		    <param name="allowFullScreen" value="true" />
 		    <param name="allowScriptAccess" value="always" />
-		    <param name="flashvars" value="feed=http://grailsgae.appspot.com/book/list.xml&numRows=2" />
+		    <param name="flashvars" value="feed=${g.resource(dir:'book', absolute:true)}/list.xml&numRows=3" />
 		    <embed type="application/x-shockwave-flash"
 		      src="http://apps.cooliris.com/embed/cooliris.swf"
-		      flashvars="feed=http://grailsgae.appspot.com/book/list.xml&numRows=2"
+		      flashvars="feed=${g.resource(dir:'book', absolute:true)}/list.xml&numRows=3"
 		      width="100%" 
 		      height="100%" 
 		      allowFullScreen="true"
